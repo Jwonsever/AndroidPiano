@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:onClick="sendMessage"
+        android:text="@string/button_send" />
+
+    <EditText
+        android:id="@+id/edit_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/button1"
+        android:ems="10"
+        android:hint="@string/edit_message" />
+
+    <Button
+        android:id="@+id/a_note"
+        android:onClick="playAnote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1"
+        android:text="@string/a_note" />
+
+    <RelativeLayout
+        android:id="@+id/piano_keys"
+        android:layout_width="100dp"
+        android:layout_height="350dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal" >
+   		 
+   		 <LinearLayout
+   		     android:id="@+id/piano_key_d"
+   		     android:layout_width="match_parent"
+   		     android:layout_height="50dp"
+   		     android:layout_alignParentLeft="true"
+   		     android:layout_alignParentRight="true"
+   		     android:background="@drawable/piano_key"
+   		     android:orientation="horizontal" >
+
+    	</LinearLayout>
+
+		<LinearLayout
+		    android:id="@+id/piano_key_c"
+		    android:layout_width="match_parent"
+		    android:layout_height="50dp"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentRight="true"
+		    android:layout_marginTop="50dp"
+		    android:background="@drawable/piano_key"
+		    android:orientation="horizontal" >
+
+		</LinearLayout>
+
+    </RelativeLayout>
+    
+</RelativeLayout>

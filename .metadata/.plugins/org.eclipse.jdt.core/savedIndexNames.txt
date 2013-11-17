@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+/home/james/Android/TestWorkspace/.metadata/.plugins/org.eclipse.jdt.core
+3329113270.index
+3927879410.index
+3318310005.index
