@@ -1,4 +1,0 @@
-AndroidPiano
-============
-
-First Android
