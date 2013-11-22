@@ -26,36 +26,52 @@ public final class R {
         public static final int piano_key=0x7f020002;
     }
     public static final class id {
-        public static final int a_note=0x7f090002;
-        public static final int action_settings=0x7f090007;
-        public static final int button1=0x7f090000;
-        public static final int edit_message=0x7f090001;
-        public static final int piano_key_c=0x7f090006;
-        public static final int piano_key_cs=0x7f090005;
-        public static final int piano_key_d=0x7f090004;
+        public static final int action_settings=0x7f090014;
+        public static final int button1=0x7f090001;
+        public static final int button2=0x7f090010;
+        public static final int edit_message=0x7f090000;
+        public static final int pager=0x7f090011;
+        public static final int pager_title_strip=0x7f090012;
+        public static final int piano_key_a=0x7f090009;
+        public static final int piano_key_ab=0x7f09000e;
+        public static final int piano_key_b=0x7f09000a;
+        public static final int piano_key_bb=0x7f09000f;
+        public static final int piano_key_c=0x7f090004;
+        public static final int piano_key_cs=0x7f09000b;
+        public static final int piano_key_d=0x7f090005;
+        public static final int piano_key_e=0x7f090006;
+        public static final int piano_key_eb=0x7f09000c;
+        public static final int piano_key_f=0x7f090007;
+        public static final int piano_key_fs=0x7f09000d;
+        public static final int piano_key_g=0x7f090008;
         public static final int piano_keys=0x7f090003;
+        public static final int section_label=0x7f090013;
+        public static final int volBar=0x7f090002;
     }
     public static final class layout {
         public static final int activity_display_message=0x7f030000;
         public static final int activity_main=0x7f030001;
+        public static final int activity_recordings_manager=0x7f030002;
+        public static final int fragment_recordings_manager_dummy=0x7f030003;
     }
     public static final class menu {
         public static final int display_message=0x7f080000;
         public static final int main=0x7f080001;
+        public static final int recordings_manager=0x7f080002;
     }
     public static final class raw {
         public static final int pianoa=0x7f040000;
-        public static final int pianob=0x7f040001;
-        public static final int pianobb=0x7f040002;
-        public static final int pianoc=0x7f040003;
-        public static final int pianocs=0x7f040004;
-        public static final int pianod=0x7f040005;
-        public static final int pianoe=0x7f040006;
-        public static final int pianoeb=0x7f040007;
-        public static final int pianof=0x7f040008;
-        public static final int pianofs=0x7f040009;
-        public static final int pianog=0x7f04000a;
-        public static final int pianogs=0x7f04000b;
+        public static final int pianoab=0x7f040001;
+        public static final int pianob=0x7f040002;
+        public static final int pianobb=0x7f040003;
+        public static final int pianoc=0x7f040004;
+        public static final int pianocs=0x7f040005;
+        public static final int pianod=0x7f040006;
+        public static final int pianoe=0x7f040007;
+        public static final int pianoeb=0x7f040008;
+        public static final int pianof=0x7f040009;
+        public static final int pianofs=0x7f04000a;
+        public static final int pianog=0x7f04000b;
     }
     public static final class string {
         public static final int a_note=0x7f060006;
@@ -66,6 +82,10 @@ public final class R {
         public static final int hello_world=0x7f060002;
         public static final int title_activity_display_message=0x7f060007;
         public static final int title_activity_main=0x7f060004;
+        public static final int title_activity_recordings_manager=0x7f060008;
+        public static final int title_section1=0x7f060009;
+        public static final int title_section2=0x7f06000a;
+        public static final int title_section3=0x7f06000b;
     }
     public static final class style {
         /** 
